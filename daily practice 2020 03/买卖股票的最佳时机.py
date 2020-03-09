@@ -20,6 +20,8 @@
 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
 """
 
+# category: arrays
+
 # class Solution:  # wa for [2,4,1]. may not be min and max
 #     def maxProfit(self, prices: List[int]) -> int:
 #         if not prices:  # []
