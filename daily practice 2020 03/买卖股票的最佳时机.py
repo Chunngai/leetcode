@@ -11,6 +11,7 @@
 输出: 5
 解释: 在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。
      注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格。
+
 示例 2:
 
 输入: [7,6,4,3,1]
@@ -57,7 +58,7 @@
 
 #         return max_value
 
-class Solution:  # passed with less time, with solution from: [7,6,4,3,1]
+class Solution:  # passed with less time, with solution from: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/gu-piao-wen-ti-python3-c-by-z1m/
     def maxProfit(self, prices: List[int]) -> int:
         min_value = float("inf")
         max_profit = 0
