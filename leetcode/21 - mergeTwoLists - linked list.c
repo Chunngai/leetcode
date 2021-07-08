@@ -15,7 +15,7 @@
  */
 
 
-struct ListNode *mergeTwoLists(struct ListNode *l1, struct ListNode *l2) {
+struct ListNode *mergeTwoLists21(struct ListNode *l1, struct ListNode *l2) {
     // Empty list.
     if (!l1) {
         return l2;
@@ -70,7 +70,7 @@ struct ListNode *mergeTwoLists(struct ListNode *l1, struct ListNode *l2) {
     return mergedList;
 }
 
-struct ListNode *mergeTwoListsWithHeadNode(struct ListNode *l1, struct ListNode *l2) {
+struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNode *l2) {
     // Head node.
     struct ListNode *pHead = (struct ListNode *) malloc(sizeof(struct ListNode));
     pHead->val = 0;
@@ -107,6 +107,9 @@ struct ListNode *mergeTwoListsWithHeadNode(struct ListNode *l1, struct ListNode 
 
 //int main() {
 //    int vals1[] = {1, 2, 4};
+////    int vals1[] = {};
+////    int vals1[] = {};
+//
 //    int vals1Size = sizeof(vals1) / sizeof(int);
 //    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
 //    // Ignores the head node.
@@ -114,14 +117,17 @@ struct ListNode *mergeTwoListsWithHeadNode(struct ListNode *l1, struct ListNode 
 //    printLinkedList(l1, 1);
 //
 //    int vals2[] = {1, 3, 4};
+////    int vals2[] = {};
+////    int vals2[] = {0};
+//
 //    int vals2Size = sizeof(vals1) / sizeof(int);
 //    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
 //    // Ignores the head node.
 //    l2 = removeHeadNodeFromLinkedList(l2);
 //    printLinkedList(l2, 1);
 //
-////    struct ListNode *mergedList = mergeTwoLists(l1, l2);
-//    struct ListNode *mergedList = mergeTwoListsWithHeadNode(l1, l2);
+////    struct ListNode *mergedList = mergeTwoLists21(l1, l2);
+//    struct ListNode *mergedList = mergeTwoListsWithHeadNode21(l1, l2);
 //    printLinkedList(mergedList, 1);
 //}
 

@@ -15,7 +15,7 @@
  */
 
 
-struct ListNode* deleteDuplicates(struct ListNode* head){
+struct ListNode* deleteDuplicates82(struct ListNode* head){
     // Empty list.
     if (!head) {
         return NULL;
@@ -54,31 +54,31 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
             duplicatedNumber = p->val;
         }
     }
-
+    /*
+     * [1, 1]
+     * [1, 2, 2]
+     * Maybe for something like [..., 1, 1, 1, 1, 1]
+     */
     if (pre == cur) {
-        cur->next = p->next;
+        cur->next = NULL;
     }
 
     return pseudoHead->next;
 }
 
-//int main() {
+int main() {
+//    int vals[] = {1, 2, 3, 3, 4, 4, 5};
+//    int vals[] = {1, 1, 1, 2, 3};
 //    int vals[] = {};
-//    int valsSize = sizeof(vals) / sizeof(int);
-//    struct ListNode *l = createLinkedListL(vals, valsSize);
-//    // Ignores the head node.
-//    l = removeHeadNodeFromLinkedList(l);
-//    printLinkedList(l, 1);
-//
-//    struct ListNode *rst = deleteDuplicates(l);
-//    printLinkedList(rst, 1);
-//}
+//    int vals[] = {1, 1};
+    int vals[] = {1, 2, 2};
 
-/*
-    [1,1]
-    [1,2,2]
- *
-    if (pre == cur) {
-        cur->next = p->next;
-    }
- */
+    int valsSize = sizeof(vals) / sizeof(int);
+    struct ListNode *l = createLinkedListL(vals, valsSize);
+    // Ignores the head node.
+    l = removeHeadNodeFromLinkedList(l);
+    printLinkedList(l, 1);
+
+    struct ListNode *rst = deleteDuplicates82(l);
+    printLinkedList(rst, 1);
+}

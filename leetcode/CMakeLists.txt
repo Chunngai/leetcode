@@ -13,4 +13,4 @@ add_executable(
         "sample - twoSum.c"
 
         "21 - mergeTwoLists - linked list.c"
-        leetcode_utils.c leetcode_utils.h "82 - deleteDuplicates - linked list.c")
+        leetcode_utils.c leetcode_utils.h "82 - deleteDuplicates - linked list.c" "83 - deleteDuplicates - linked list.c" "86 - partition - linked list.c")
