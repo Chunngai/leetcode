@@ -12,5 +12,12 @@ add_executable(
 
         "sample - twoSum.c"
 
+        leetcode_utils.c leetcode_utils.h
+
         "21 - mergeTwoLists - linked list.c"
-        leetcode_utils.c leetcode_utils.h "82 - deleteDuplicates - linked list.c" "83 - deleteDuplicates - linked list.c" "86 - partition - linked list.c")
+        "82 - deleteDuplicates - linked list.c"
+        "83 - deleteDuplicates - linked list.c"
+        "Todo - 86 - partition - linked list.c"
+        "todo - 92 - reverseBetween - linked list.c"
+        "Todo - 141 - hasCycle - linked list.c"
+        "Todo - 142 - detectCycle - linked list.c" "Todo - 143 - reorderList - linked list.c" "206 - reverseList - linked list.c" "Todo - 234 - isPalindrome - linked list.c")

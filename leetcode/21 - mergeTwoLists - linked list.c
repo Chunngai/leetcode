@@ -70,7 +70,7 @@ struct ListNode *mergeTwoLists21(struct ListNode *l1, struct ListNode *l2) {
     return mergedList;
 }
 
-struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNode *l2) {
+struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNode *l2) {  // O(m+n), O(1)
     // Head node.
     struct ListNode *pHead = (struct ListNode *) malloc(sizeof(struct ListNode));
     pHead->val = 0;

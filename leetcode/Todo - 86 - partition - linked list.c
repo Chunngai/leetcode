@@ -16,7 +16,7 @@
  */
 
 
-struct ListNode* partition86(struct ListNode* head, int x){
+struct ListNode* partition86(struct ListNode* head, int x){  // O(n), O(n). TODO: Better solutions: O(n), O(1).
     if (!head) {
         return NULL;
     }

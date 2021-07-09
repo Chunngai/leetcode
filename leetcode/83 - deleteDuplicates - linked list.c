@@ -16,7 +16,7 @@
  */
 
 
-struct ListNode* deleteDuplicates83(struct ListNode* head){
+struct ListNode* deleteDuplicates83(struct ListNode* head){  // O(n), O(1)
     if (head == NULL) {
         return NULL;
     }
