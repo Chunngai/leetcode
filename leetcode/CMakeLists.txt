@@ -20,4 +20,4 @@ add_executable(
         "Todo - 86 - partition - linked list.c"
         "todo - 92 - reverseBetween - linked list.c"
         "Todo - 141 - hasCycle - linked list.c"
-        "Todo - 142 - detectCycle - linked list.c" "Todo - 143 - reorderList - linked list.c" "206 - reverseList - linked list.c" "Todo - 234 - isPalindrome - linked list.c")
+        "Todo - 142 - detectCycle - linked list.c" "Todo - 143 - reorderList - linked list.c" "206 - reverseList - linked list.c" "Todo - 234 - isPalindrome - linked list.c" "2 - addTwoNumbers - linked list.c")

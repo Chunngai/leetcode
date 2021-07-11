@@ -70,7 +70,17 @@ struct ListNode *mergeTwoLists21(struct ListNode *l1, struct ListNode *l2) {
     return mergedList;
 }
 
-struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNode *l2) {  // O(m+n), O(1)
+/*
+ * https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ * iteration, two lists.
+ *
+ * Use pa to points at la, pb to points at lb.
+ * The next node of the merged list should be the smaller one
+ * of la->val and lb->val.
+ * Don't forget to merge to longer part of the two lists.
+ * O(m+n), O(1)
+ */
+struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNode *l2) {
     // Head node.
     struct ListNode *pHead = (struct ListNode *) malloc(sizeof(struct ListNode));
     pHead->val = 0;
