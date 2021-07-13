@@ -16,7 +16,7 @@
 
 /*
  * https://leetcode-cn.com/problems/add-two-numbers/
- * iteration?; two lists
+ * iteration?; two lists.
  *
  * The solution is similar to "21 - mergeTwoLists - linked list".
  * Use p1 for l1, p2 for l2, and p for the new list.
@@ -27,7 +27,7 @@
  * Note that the solution below changes the given linked list,
  * which may not be permitted. If it's not permitted,
  * new a node each time instead.
- * O(max(m, n)), O(1)
+ * O(max(m, n)), O(1).
  *
  * 1. Remember to add a pseudo node (for two lists problems).
  * 2. Use another ptr p to construct the new list (for two lists problems)
@@ -119,33 +119,33 @@ struct ListNode *addTwoNumbers2(struct ListNode *l1, struct ListNode *l2) {
     return pseudoHead->next;
 }
 
-int main() {
-//    int vals1[] = {2, 4, 3};
-//    int vals2[] = {5, 6, 4};
-
-//    int vals1[] = {0};
-//    int vals2[] = {0};
-
-//    int vals1[] = {9, 9, 9, 9, 9, 9, 9};
-//    int vals2[] = {9, 9, 9, 9};
-
-//    int vals1[] = {9, 9, 9, 9};
-//    int vals2[] = {9, 9, 9, 9, 9, 9, 9};
-
-    int vals1[] = {2, 4, 9};
-    int vals2[] = {5, 6, 4, 9};
-
-    int vals1Size = sizeof(vals1) / sizeof(int);
-    int vals2Size = sizeof(vals2) / sizeof(int);
-
-    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
-    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
-    // Ignores the head node.
-    l1 = removeHeadNodeFromLinkedList(l1);
-    l2 = removeHeadNodeFromLinkedList(l2);
-    printLinkedList(l1, 1);
-    printLinkedList(l2, 1);
-
-    struct ListNode *result = addTwoNumbers2(l1, l2);
-    printLinkedList(result, 1);
-}
+//int main() {
+////    int vals1[] = {2, 4, 3};
+////    int vals2[] = {5, 6, 4};
+//
+////    int vals1[] = {0};
+////    int vals2[] = {0};
+//
+////    int vals1[] = {9, 9, 9, 9, 9, 9, 9};
+////    int vals2[] = {9, 9, 9, 9};
+//
+////    int vals1[] = {9, 9, 9, 9};
+////    int vals2[] = {9, 9, 9, 9, 9, 9, 9};
+//
+//    int vals1[] = {2, 4, 9};
+//    int vals2[] = {5, 6, 4, 9};
+//
+//    int vals1Size = sizeof(vals1) / sizeof(int);
+//    int vals2Size = sizeof(vals2) / sizeof(int);
+//
+//    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
+//    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
+//    // Ignores the head node.
+//    l1 = removeHeadNodeFromLinkedList(l1);
+//    l2 = removeHeadNodeFromLinkedList(l2);
+//    printLinkedList(l1, 1);
+//    printLinkedList(l2, 1);
+//
+//    struct ListNode *result = addTwoNumbers2(l1, l2);
+//    printLinkedList(result, 1);
+//}

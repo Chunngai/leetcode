@@ -20,4 +20,4 @@ add_executable(
         "Todo - 86 - partition - linked list.c"
         "todo - 92 - reverseBetween - linked list.c"
         "Todo - 141 - hasCycle - linked list.c"
-        "Todo - 142 - detectCycle - linked list.c" "Todo - 143 - reorderList - linked list.c" "206 - reverseList - linked list.c" "Todo - 234 - isPalindrome - linked list.c" "2 - addTwoNumbers - linked list.c")
+        "Todo - 142 - detectCycle - linked list.c" "Todo - 143 - reorderList - linked list.c" "206 - reverseList - linked list.c" "Todo - 234 - isPalindrome - linked list.c" "2 - addTwoNumbers - linked list.c" queue.c queue.h "239 - maxSlidingWindow - queue.c" "1669 - mergeInBetween - linked list.c" "Todo - 23 - mergeKLists - linked list.c" stack.c stack.h "20 - isValid - stack.c" "496 - nextGreaterElement - stack.c")
