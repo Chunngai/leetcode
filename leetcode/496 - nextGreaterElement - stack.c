@@ -8,7 +8,7 @@
 
 /*
  * https://leetcode-cn.com/problems/next-greater-element-i/
- * monotonic stack.
+ * monotonic stack; hash table.
  *
  * Example question of the monotonic stack.
  * First use the monotonic stack to get the greater elem
@@ -19,6 +19,8 @@
  *
  * 1. for `struct HashTable { ...} *hashTable;`, remember
  * to init the hash table!!!.
+ * 2. Use `stack[top - 1]` to get the top elem
+ * of the stack, not `stack[top]`.
  */
 struct HashTable496 {
     int key;
@@ -76,20 +78,20 @@ int *nextGreaterElement496(int *nums1, int nums1Size, int *nums2, int nums2Size,
     return result;
 }
 
-int main() {
-    int vals1[] = {4, 1, 2};
-    int vals2[] = {1, 3, 4, 2};
-//    int vals1[] = {2, 4};
-//    int vals2[] = {1, 2, 3, 4};
-//    int vals1[] = {1, 3, 5, 2, 4};
-//    int vals2[] = {5, 4, 3, 2, 1};
-
-    int vals1Size = sizeof(vals1) / sizeof(int);
-    int vals2Size = sizeof(vals2) / sizeof(int);
-    int returnSize = 0;
-
-    int *result = nextGreaterElement496(vals1, vals1Size, vals2, vals2Size, &returnSize);
-    for (int i = 0; i < returnSize; i++) {
-        printf("%d ", result[i]);
-    }
-}
+//int main() {
+//    int vals1[] = {4, 1, 2};
+//    int vals2[] = {1, 3, 4, 2};
+////    int vals1[] = {2, 4};
+////    int vals2[] = {1, 2, 3, 4};
+////    int vals1[] = {1, 3, 5, 2, 4};
+////    int vals2[] = {5, 4, 3, 2, 1};
+//
+//    int vals1Size = sizeof(vals1) / sizeof(int);
+//    int vals2Size = sizeof(vals2) / sizeof(int);
+//    int returnSize = 0;
+//
+//    int *result = nextGreaterElement496(vals1, vals1Size, vals2, vals2Size, &returnSize);
+//    for (int i = 0; i < returnSize; i++) {
+//        printf("%d ", result[i]);
+//    }
+//}

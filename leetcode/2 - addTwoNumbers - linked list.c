@@ -16,7 +16,7 @@
 
 /*
  * https://leetcode-cn.com/problems/add-two-numbers/
- * iteration?; two lists.
+ * two lists.
  *
  * The solution is similar to "21 - mergeTwoLists - linked list".
  * Use p1 for l1, p2 for l2, and p for the new list.
@@ -141,8 +141,8 @@ struct ListNode *addTwoNumbers2(struct ListNode *l1, struct ListNode *l2) {
 //    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
 //    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
 //    // Ignores the head node.
-//    l1 = removeHeadNodeFromLinkedList(l1);
-//    l2 = removeHeadNodeFromLinkedList(l2);
+//    l1 = removePseudoHeadNodeFromLinkedList(l1);
+//    l2 = removePseudoHeadNodeFromLinkedList(l2);
 //    printLinkedList(l1, 1);
 //    printLinkedList(l2, 1);
 //

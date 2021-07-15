@@ -59,7 +59,7 @@ void reorderList143(struct ListNode *head) {  // O(n), O(n). TODO: Better soluti
 //    int valsSize = sizeof(vals) / sizeof(int);
 //    struct ListNode *l = createLinkedListL(vals, valsSize);
 //    // Ignores the head node.
-//    l = removeHeadNodeFromLinkedList(l);
+//    l = removePseudoHeadNodeFromLinkedList(l);
 //    printLinkedList(l, 1);
 //
 //    reorderList143(l);

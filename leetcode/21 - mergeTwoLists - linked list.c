@@ -72,7 +72,7 @@ struct ListNode *mergeTwoLists21(struct ListNode *l1, struct ListNode *l2) {
 
 /*
  * https://leetcode-cn.com/problems/merge-two-sorted-lists/
- * iteration; two lists.
+ * two lists.
  *
  * Use pa to points at la, pb to points at lb.
  * The next node of the merged list should be the smaller one
@@ -123,7 +123,7 @@ struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNod
 //    int vals1Size = sizeof(vals1) / sizeof(int);
 //    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
 //    // Ignores the head node.
-//    l1 = removeHeadNodeFromLinkedList(l1);
+//    l1 = removePseudoHeadNodeFromLinkedList(l1);
 //    printLinkedList(l1, 1);
 //
 //    int vals2[] = {1, 3, 4};
@@ -133,7 +133,7 @@ struct ListNode *mergeTwoListsWithHeadNode21(struct ListNode *l1, struct ListNod
 //    int vals2Size = sizeof(vals1) / sizeof(int);
 //    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
 //    // Ignores the head node.
-//    l2 = removeHeadNodeFromLinkedList(l2);
+//    l2 = removePseudoHeadNodeFromLinkedList(l2);
 //    printLinkedList(l2, 1);
 //
 ////    struct ListNode *mergedList = mergeTwoLists21(l1, l2);

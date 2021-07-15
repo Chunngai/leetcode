@@ -5,6 +5,20 @@
 #ifndef LEETCODE_LEETCODE_UTILS_H
 #define LEETCODE_LEETCODE_UTILS_H
 
-struct ListNode *removeHeadNodeFromLinkedList(struct ListNode *linkedList);
+void printNULL();
+
+void printInt(int val);
+
+// Linked list utils.
+
+struct ListNode *removePseudoHeadNodeFromLinkedList(struct ListNode *linkedList);
+
+struct ListNode *createLinkedListWoPseudoHeadNode(const int *vals, int valsSize, int printToCheck);
+
+// Array utils.
+
+void printIntArray(int *arr, int arrSize);
+
+void printCharArray(char *arr);
 
 #endif //LEETCODE_LEETCODE_UTILS_H

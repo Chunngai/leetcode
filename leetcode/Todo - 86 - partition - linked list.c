@@ -83,7 +83,7 @@ struct ListNode* partition86(struct ListNode* head, int x){  // O(n), O(n). TODO
 //    int valsSize = sizeof(vals) / sizeof(int);
 //    struct ListNode *l = createLinkedListL(vals, valsSize);
 //    // Ignores the head node.
-//    l = removeHeadNodeFromLinkedList(l);
+//    l = removePseudoHeadNodeFromLinkedList(l);
 //    printLinkedList(l, 1);
 //
 //    struct ListNode *rst = partition86(l, x);

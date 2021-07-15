@@ -15,7 +15,7 @@
 
 /*
  * https://leetcode-cn.com/problems/merge-in-between-linked-lists/
- * two lists?
+ * two lists?.
  *
  * It's about merging two lists, but much easier than
  * q2 and q21. And the solution is diff from q2 and q21.
@@ -77,8 +77,8 @@ struct ListNode *mergeInBetween1669(struct ListNode *list1, int a, int b, struct
 //    struct ListNode *l1 = createLinkedListL(vals1, vals1Size);
 //    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
 //    // Ignores the head node.
-//    l1 = removeHeadNodeFromLinkedList(l1);
-//    l2 = removeHeadNodeFromLinkedList(l2);
+//    l1 = removePseudoHeadNodeFromLinkedList(l1);
+//    l2 = removePseudoHeadNodeFromLinkedList(l2);
 //    printLinkedList(l1, 1);
 //    printLinkedList(l2, 1);
 //

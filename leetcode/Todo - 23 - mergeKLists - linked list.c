@@ -16,7 +16,7 @@
 
 /*
  * https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2/
- * iteration; two lists.
+ * two lists.
  * TODO: better solutions with less complexity.
  *
  * A simple solution is to do "mergeTwoLists" for multiple times.
@@ -89,9 +89,9 @@ struct ListNode *mergeKLists23(struct ListNode **lists, int listsSize) {
 //    struct ListNode *l2 = createLinkedListL(vals2, vals2Size);
 //    struct ListNode *l3 = createLinkedListL(vals3, vals3Size);
 //    // Ignores the head node.
-//    l1 = removeHeadNodeFromLinkedList(l1);
-//    l2 = removeHeadNodeFromLinkedList(l2);
-//    l3 = removeHeadNodeFromLinkedList(l3);
+//    l1 = removePseudoHeadNodeFromLinkedList(l1);
+//    l2 = removePseudoHeadNodeFromLinkedList(l2);
+//    l3 = removePseudoHeadNodeFromLinkedList(l3);
 //    printLinkedList(l1, 1);
 //    printLinkedList(l2, 1);
 //    printLinkedList(l3, 1);

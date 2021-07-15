@@ -8,7 +8,7 @@
 
 /*
  * https://leetcode-cn.com/problems/valid-parentheses/
- * basic op.
+ * basic ops.
  *
  * Use a stack to match.
  * Note that if str len % 2 == 1,

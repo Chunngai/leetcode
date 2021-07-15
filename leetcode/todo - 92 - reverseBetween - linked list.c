@@ -96,7 +96,7 @@ struct ListNode* reverseBetween92(struct ListNode* head, int left, int right){  
 //    int valsSize = sizeof(vals) / sizeof(int);
 //    struct ListNode *l = createLinkedListL(vals, valsSize);
 //    // Ignores the head node.
-//    l = removeHeadNodeFromLinkedList(l);
+//    l = removePseudoHeadNodeFromLinkedList(l);
 //    printLinkedList(l, 1);
 //
 //    struct ListNode *rst = reverseBetween92(l, left, right);
