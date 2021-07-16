@@ -14,9 +14,13 @@ void printInt(int val) {
     printf("%d\n", val);
 }
 
+void printChar(char val) {
+    printf("%c\n", val);
+}
+
 // Linked list utils.
 
-struct ListNode *removePseudoHeadNodeFromLinkedList(struct ListNode *linkedList) {
+        struct ListNode *removePseudoHeadNodeFromLinkedList(struct ListNode *linkedList) {
     return linkedList->next;
 }
 
@@ -38,6 +42,13 @@ void printIntArray(int *arr, int arrSize) {
     printf("\n");
 }
 
-void printCharArray(char *arr) {
-    printf("%s\n", arr);
+void printCharArray(char *arr, int arrSize) {
+    for (int i = 0; i < arrSize; i++) {
+        printf("%c ", arr[i]);
+    }
+    printf("\n");
+}
+
+void printString(char *val) {
+    printf("%s\n", val);
 }

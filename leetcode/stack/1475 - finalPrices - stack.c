@@ -3,7 +3,7 @@
 //
 
 #include <malloc.h>
-#include "leetcode_utils.h"
+#include "../leetcode_utils.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().

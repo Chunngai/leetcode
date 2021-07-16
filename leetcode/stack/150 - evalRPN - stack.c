@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 #include <malloc.h>
-#include "leetcode_utils.h"
+#include "../leetcode_utils.h"
 
 // char *tokens[] = {...};
 // char tokens[][1] = {...};
@@ -12,7 +12,7 @@
 
 /*
  * https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
- * basic ops.
+ * math expression.
  *
  * When the elem is an operand, push. When the elem
  * is an op, pop two operands and calculate. Push the
@@ -23,9 +23,9 @@
  * pushed, and then left operand is secondly pushed.
  * O(n), O(n).
  *
- * 1. TODO: char *tokens[] = { ... } and char tokens[][1] = { ... }
+ * 1. char *tokens[] = { ... } and char tokens[][1] = { ... }
  * are different.
- * 2. TODO: For `char *tokens[]`, the arr size is `sizeof(tokens) / sizeof(char *)`.
+ * 2. For `char *tokens[]`, the arr size is `sizeof(tokens) / sizeof(char *)`.
  */
 int evalRPN150(char **tokens, int tokensSize) {
     int *stack = malloc(sizeof(int) * tokensSize);

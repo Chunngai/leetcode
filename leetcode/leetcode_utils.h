@@ -9,6 +9,8 @@ void printNULL();
 
 void printInt(int val);
 
+void printChar(char val);
+
 // Linked list utils.
 
 struct ListNode *removePseudoHeadNodeFromLinkedList(struct ListNode *linkedList);
@@ -19,6 +21,8 @@ struct ListNode *createLinkedListWoPseudoHeadNode(const int *vals, int valsSize,
 
 void printIntArray(int *arr, int arrSize);
 
-void printCharArray(char *arr);
+void printCharArray(char *arr, int arrSize);
+
+void printString(char *val);
 
 #endif //LEETCODE_LEETCODE_UTILS_H

@@ -2,8 +2,8 @@
 // Created by neko on 2021/7/13.
 //
 
-#include"linked_list.h"
-#include "leetcode_utils.h"
+#include"../linked_list.h"
+#include "../leetcode_utils.h"
 
 /**
  * Definition for singly-linked list.

@@ -3,9 +3,9 @@
 //
 
 #include <stdio.h>
-#include "linked_list.h"
-#include "leetcode_utils.h"
-#include "uthash/include/uthash.h"
+#include "../linked_list.h"
+#include "../leetcode_utils.h"
+#include "../uthash/include/uthash.h"
 
 /**
  * Definition for singly-linked list.

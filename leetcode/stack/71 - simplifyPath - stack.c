@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
-#include "leetcode_utils.h"
+#include "../leetcode_utils.h"
 
 /*
  * https://leetcode-cn.com/problems/simplify-path/

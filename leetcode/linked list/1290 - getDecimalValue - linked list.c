@@ -4,8 +4,8 @@
 
 #include <stddef.h>
 #include <math.h>
-#include "linked_list.h"
-#include "leetcode_utils.h"
+#include "../linked_list.h"
+#include "../leetcode_utils.h"
 
 /**
  * Definition for singly-linked list.

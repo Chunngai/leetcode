@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <malloc.h>
-#include "uthash/include/uthash.h"
+#include "../uthash/include/uthash.h"
 
 /*
  * https://leetcode-cn.com/problems/next-greater-element-i/
